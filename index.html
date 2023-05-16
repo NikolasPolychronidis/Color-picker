@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color scheme Generator</title>
+    <!-- Google Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS link -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Color scheme generator</title>
+  </head>
+  <body>
+    <header>
+      <div class="color-head-container">
+        <div class="color-drop-container">
+          <input id="color-picker" class="color-picker" type="color" />
+        </div>
+        <select name="color-selector" id="color-menu" class="color-menu">
+          <option value="monochrome">Monochrome</option>
+          <option value="monochrome-dark">Monochrome-dark</option>
+          <option value="monochrome-light">Monochrome-light</option>
+          <option value="analogic">Analogic</option>
+          <option value="complement">Complement</option>
+          <option value="analogic-complement">Analogic-complement</option>
+          <option value="triad">Triad</option>
+          <option value="quad">Quad</option>
+        </select>
+        <button class="btn" id="btn">Get color scheme</button>
+      </div>
+    </header>
+  </body>
+</html>
