@@ -12,7 +12,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   height: 5.625rem; /* Converted from 90px */
 }
 
@@ -21,7 +21,7 @@ body {
   height: 2.125rem; /* Converted from 34px */
 }
 
-.color-menu {
+.scheme-selector {
   width: 19.5rem; /* Converted from 312px */
   height: 2.625rem; /* Converted from 42px */
 }
@@ -32,9 +32,42 @@ button {
   background-color: white;
 }
 
-.color-menu,
+.scheme-selector,
 .color-picker,
 .color-head-container,
 button {
   border: 0.0625rem solid #d1d5db;
+}
+
+.color-value {
+  text-align: center;
+  margin: 0;
+  margin-top: 0.75rem; /* 12px / 16px = 0.75rem */
+  font-size: 18px;
+  color: black;
+}
+
+.scheme-container {
+  display: flex;
+  margin: 5rem auto;
+  width: 70vw;
+  max-width: 37.5rem; /* 600px / 16px = 37.5rem */
+  height: 60vh;
+  cursor: pointer;
+}
+
+.color-section-container {
+  transition: all 2s ease-in-out;
+}
+
+.color-section {
+  height: 100%;
+}
+
+.hexcode-section {
+  background-color: white;
+  margin: 0;
+  text-align: center;
+  padding: 1.25em; /* 20px / 16px = 1.25em */
+  font-weight: 600;
 }

@@ -22,7 +22,11 @@
         <div class="color-drop-container">
           <input id="color-picker" class="color-picker" type="color" />
         </div>
-        <select name="color-selector" id="color-menu" class="color-menu">
+        <select
+          name="scheme-selector"
+          id="scheme-selector"
+          class="scheme-selector"
+        >
           <option value="monochrome">Monochrome</option>
           <option value="monochrome-dark">Monochrome-dark</option>
           <option value="monochrome-light">Monochrome-light</option>
@@ -32,8 +36,10 @@
           <option value="triad">Triad</option>
           <option value="quad">Quad</option>
         </select>
-        <button class="btn" id="btn">Get color scheme</button>
+        <button class="btn" id="colorBtn">Get color scheme</button>
       </div>
     </header>
+    <div class="scheme-container" id="scheme-container"></div>
+    <script src="index.js"></script>
   </body>
 </html>
